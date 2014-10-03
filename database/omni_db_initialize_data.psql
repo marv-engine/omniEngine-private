@@ -84,7 +84,7 @@ insert into smartproperties (Protocol, propertyid, issuer, createtxdbserialnum, 
      'Fiat', 20, 'South African Rand', -1, -1, 'ZAR');
 
 
-/* load the Category and Subcategory values. 'ZZ' values are not part of ISIC */
+/* load the Category and Subcategory values. 'zz' values are not part of ISIC */
 insert into Categories (Section, Division, Name) values (
 	'A', '00', 'Agriculture, forestry and fishing');
 
@@ -98,7 +98,7 @@ insert into Categories (Section, Division, Name) values (
 	'A', '03', 'Fishing and aquaculture');
 
 insert into Categories (Section, Division, Name) values (
-	'A', 'ZZ', 'Other');
+	'A', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -120,7 +120,7 @@ insert into Categories (Section, Division, Name) values (
 	'B', '09', 'Mining support service activities');
 
 insert into Categories (Section, Division, Name) values (
-	'B', 'ZZ', 'Other');
+	'B', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -199,7 +199,7 @@ insert into Categories (Section, Division, Name) values (
 	'C', '33', 'Repair and installation of machinery and equipment');
 
 insert into Categories (Section, Division, Name) values (
-	'C', 'ZZ', 'Other');
+	'C', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -209,7 +209,7 @@ insert into Categories (Section, Division, Name) values (
 	'D', '35', 'Electricity, gas, steam and air conditioning supply');
 
 insert into Categories (Section, Division, Name) values (
-	'D', 'ZZ', 'Other');
+	'D', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -244,7 +244,7 @@ insert into Categories (Section, Division, Name) values (
 	'F', '43', 'Specialized construction activities');
 
 insert into Categories (Section, Division, Name) values (
-	'F', 'ZZ', 'Other');
+	'F', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -260,7 +260,7 @@ insert into Categories (Section, Division, Name) values (
 	'G', '47', 'Retail trade, except of motor vehicles and motorcycles');
 
 insert into Categories (Section, Division, Name) values (
-	'G', 'ZZ', 'Other');
+	'G', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -295,7 +295,7 @@ insert into Categories (Section, Division, Name) values (
 	'I', '56', 'Food and beverage service activities');
 
 insert into Categories (Section, Division, Name) values (
-	'I', 'ZZ', 'Other');
+	'I', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -320,7 +320,7 @@ insert into Categories (Section, Division, Name) values (
 	'J', '63', 'Information service activities');
 
 insert into Categories (Section, Division, Name) values (
-	'J', 'ZZ', 'Other');
+	'J', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -336,7 +336,7 @@ insert into Categories (Section, Division, Name) values (
 	'K', '66', 'Activities auxiliary to financial service and insurance activities');
 
 insert into Categories (Section, Division, Name) values (
-	'K', 'ZZ', 'Other');
+	'K', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -346,7 +346,7 @@ insert into Categories (Section, Division, Name) values (
 	'L', '68', 'Real estate activities');
 
 insert into Categories (Section, Division, Name) values (
-	'L', 'ZZ', 'Other');
+	'L', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -374,7 +374,7 @@ insert into Categories (Section, Division, Name) values (
 	'M', '75', 'Veterinary activities');
 
 insert into Categories (Section, Division, Name) values (
-	'M', 'ZZ', 'Other');
+	'M', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -399,7 +399,7 @@ insert into Categories (Section, Division, Name) values (
 	'N', '82', 'Office administrative, office support and other business support activities');
 
 insert into Categories (Section, Division, Name) values (
-	'N', 'ZZ', 'Other');
+	'N', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -409,7 +409,7 @@ insert into Categories (Section, Division, Name) values (
 	'O', '84', 'Public administration and defence; compulsory social security');
 
 insert into Categories (Section, Division, Name) values (
-	'O', 'ZZ', 'Other');
+	'O', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -419,7 +419,7 @@ insert into Categories (Section, Division, Name) values (
 	'P', '85', 'Education');
 
 insert into Categories (Section, Division, Name) values (
-	'P', 'ZZ', 'Other');
+	'P', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -435,7 +435,7 @@ insert into Categories (Section, Division, Name) values (
 	'Q', '88', 'Social work activities without accommodation');
 
 insert into Categories (Section, Division, Name) values (
-	'Q', 'ZZ', 'Other');
+	'Q', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -454,7 +454,7 @@ insert into Categories (Section, Division, Name) values (
 	'R', '93', 'Sports activities and amusement and recreation activities');
 
 insert into Categories (Section, Division, Name) values (
-	'R', 'ZZ', 'Other');
+	'R', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -470,7 +470,7 @@ insert into Categories (Section, Division, Name) values (
 	'S', '96', 'Other personal service activities');
 
 insert into Categories (Section, Division, Name) values (
-	'S', 'ZZ', 'Other');
+	'S', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -483,7 +483,7 @@ insert into Categories (Section, Division, Name) values (
 	'T', '98', 'Undifferentiated goods- and services-producing activities of private households for own use');
 
 insert into Categories (Section, Division, Name) values (
-	'T', 'ZZ', 'Other');
+	'T', 'zz', 'Other');
 
 
 insert into Categories (Section, Division, Name) values (
@@ -492,5 +492,11 @@ insert into Categories (Section, Division, Name) values (
 insert into Categories (Section, Division, Name) values (
 	'U', '99', 'Activities of extraterritorial organizations and bodies');
 insert into Categories (Section, Division, Name) values (
-	'U', 'ZZ', 'Other');
+	'U', 'zz', 'Other');
+
+
+insert into Categories (Section, Division, Name) values (
+	'zz', '99', 'Other');
+insert into Categories (Section, Division, Name) values (
+	'zz', 'zz', 'Other');
 
